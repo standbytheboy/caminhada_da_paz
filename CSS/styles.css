@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400&display=swap');
+
+@font-face {
+    font-family: 'CCRickVeitch';
+    src: url(../fontes/CCRickVeitch.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Jost", sans-serif;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    z-index: 99;
+    background-color: #D38A1F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+}
+
+h1 {
+    font-family: "Forte", cursive;
+    font-size: 45px;
+    text-align: center;
+    color: #D38A1F;
+    margin: 30px 0;
+}
+
+.titulo_inicial {
+    font-family: "CCRickVeitch", sans-serif;
+    color: #FFFFFF;
+    font-size: 35px;
+    padding-left: 10px;
+    margin: 0px;
+}
+
+nav ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    padding: 15px 25px;
+    display: inline-block;
+    font-style: bold;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #FCBF64;
+    font-style: bold;
+    color: #86C64F;
+    border-bottom: 2px solid #86C64F;
+}
+
+.card, #texto-pag3 {
+    padding: 20px;
+    margin: 65px;
+    background-color: #CFCFCF;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 24px;
+    text-align: center;
+}
+
+footer {
+    background-color: #D38A1F;
+    text-align: center;
+    padding: 10px;
+}
+
+footer img {
+    width: 5%;
+}
+
+footer p {
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+#video-trajeto {
+    text-align: center;
+}
+
+.grid_grupos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+    margin: 20px;
+    padding: 0 20px;
+    margin-bottom: 70px;
+}
+
+.grupo{
+    background-color: #86C64F;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.grupo img{
+    height: 340px;
+    border-radius: 7px;
+}
+
+.conteudo{
+    display: flex;
+    background-color: #FCBF64;
+    padding: 20px;
+    margin: 20px;
+    gap: 20px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.conteudo img{
+    width: 50%;
+    border-radius: 10px;
+}
+
+#botao-pag2{
+    text-align: center;
+    margin: 20px;
+}
+
+#botao-pag2 button{
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: #D38A1F;
+    cursor: pointer;
+}
+
+#botao-pag2 button:hover{
+    background-color: #FCBF64;
+}
+
+#banner{
+    text-align: center;
+}
+
+#banner img{
+    width: 40%;
+}
